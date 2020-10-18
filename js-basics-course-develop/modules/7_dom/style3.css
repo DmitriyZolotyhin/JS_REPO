@@ -1,0 +1,46 @@
+#main {
+    position:relative;
+    margin: 100px auto;
+    padding: 0;
+    width: 660px;
+    height:320px;
+    background-color: rgba(120, 120, 120, 0.5);
+}
+#scr {
+    margin: 0 auto;
+    width: 600px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 50% 50%;
+}
+.move {
+    position: absolute;
+    top: 150px;
+    width: 25px;
+    height: 70px;
+    font: 25pt arial,tahoma,sans-serif;
+    text-align: center;
+    border: none;
+    background: none;
+
+}
+button:focus {
+    outline: none;
+}
+.left {
+    left:5px;
+}
+.right {
+    right:5px;
+}
+#timer {
+    border-radius: 5px;
+    width: 50px;
+    border: 1px solid black;
+}
+button {
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}

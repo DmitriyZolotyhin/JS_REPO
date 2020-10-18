@@ -1,0 +1,19 @@
+img {
+    cursor: pointer;
+}
+
+table, td, tr {
+    border: 1px solid black;
+}
+
+thead, tr:nth-child(2n) {
+    background: rgba(120, 120, 120, 0.5);
+}
+input {
+    margin: 2px;
+}
+button {
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}

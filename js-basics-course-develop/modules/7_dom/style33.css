@@ -1,0 +1,24 @@
+
+.searchTask {
+    width: 300px;
+    display: flex;
+    justify-items: left;
+}
+.searchTask .searchBlock{
+    width: fit-content;
+    border: 1px solid;
+   
+}
+#searchInput{
+    margin: 2px;
+    width: 150px;
+}
+#textInput{
+    margin: 2px;
+    width: 150px;
+}
+.textBlock{
+    padding: 2px;
+    width: 150px;
+    
+}
